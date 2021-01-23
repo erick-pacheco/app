@@ -1,8 +1,13 @@
 {
-  "presets": ["@babel/env", "@babel/react", "@babel/flow"],
+  "presets": [
+    "@babel/env",
+    "@babel/react",
+    "@babel/flow",
+    "@babel/preset-flow"
+  ],
   "plugins": [
-    "@babel/syntax-dynamic-import",
-    "@babel/transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-transform-runtime",
     [
       "@babel/transform-spread",
       {
@@ -15,7 +20,9 @@
     [
       "module-resolver",
       {
-        "root": ["./src"],
+        "root": [
+          "./src"
+        ],
         "alias": {
           "pages": "./src/client/pages",
           "components": "./src/client/components",

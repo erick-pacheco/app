@@ -7,7 +7,7 @@ const { writeFileSync } = require('fs');
 const { omit } = require('lodash');
 const packageJson = require('../package.json');
 
-const TEMPLATE_DIR = 'https://github.com/htdangkhoa/erb.git';
+const TEMPLATE_DIR = 'https://github.com/erick-pacheco/app';
 
 const NAME = packageJson.name;
 

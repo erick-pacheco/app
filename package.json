@@ -40,7 +40,7 @@
   ],
   "main": "dist/index.js",
   "bin": {
-    "erb-gen": "./bin/index.js"
+    "erb-gen": "bin/index.js"
   },
   "scripts": {
     "preanalyze": "npm run stats",
@@ -156,13 +156,13 @@
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
-    "@babel/node": "^7.10.4",
+    "@babel/node": "^7.0.0",
     "@babel/plugin-proposal-optional-chaining": "^7.10.4",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/plugin-transform-spread": "^7.10.4",
     "@babel/polyfill": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
     "@babel/preset-flow": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "@babel/runtime": "^7.10.4",
@@ -170,7 +170,9 @@
     "@loadable/webpack-plugin": "^5.13.0",
     "@storybook/react": "^5.2.8",
     "address": "^1.1.2",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^23.4.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^4.0.0",
     "compression-webpack-plugin": "^4.0.0",
